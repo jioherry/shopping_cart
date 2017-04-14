@@ -445,3 +445,1225 @@
 /home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
  DEBUG [efb96eab] 	Tasks: TOP => environment
  DEBUG [efb96eab] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 19:11:31 +0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [95ec3f29] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [95ec3f29] Command: /usr/bin/env mkdir -p /tmp
+  INFO [95ec3f29] Finished in 0.721 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [86e86d9e] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [86e86d9e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [86e86d9e] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [8b32b104] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [8b32b104] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b32b104] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [131e559a] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [131e559a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [131e559a] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [b41b906e] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [b41b906e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [b41b906e] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [b41b906e] Finished in 0.838 seconds with exit status 0 (successful).
+  INFO [a182ac35] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [a182ac35] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [a182ac35] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [a182ac35] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [3d197e4b] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [3d197e4b] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [3d197e4b] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [dcd01d2c] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [dcd01d2c] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [dcd01d2c] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [499ffcbb] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [499ffcbb] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [499ffcbb] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [2faec8bc] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [2faec8bc] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [2faec8bc] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [1f3d7c40] Running [ -f /home/ray/ray-exercise/shared/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [1f3d7c40] Command: [ -f /home/ray/ray-exercise/shared/config/secrets.yml ]
+ DEBUG [1f3d7c40] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 19:11:38 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [935c2efc] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [935c2efc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [935c2efc] Finished in 0.622 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [296b6122] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [296b6122] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [296b6122] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [46c87232] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [46c87232] Command: /usr/bin/env mkdir -p /tmp
+  INFO [46c87232] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [688ed169] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [688ed169] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [688ed169] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [d31cb9f8] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [d31cb9f8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [d31cb9f8] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [d31cb9f8] Finished in 0.692 seconds with exit status 0 (successful).
+  INFO [61d37fa3] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [61d37fa3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [61d37fa3] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [61d37fa3] Finished in 0.670 seconds with exit status 0 (successful).
+  INFO [7866ce43] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [7866ce43] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [7866ce43] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [f9a14ea5] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [f9a14ea5] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [f9a14ea5] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [d39f8fdc] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [d39f8fdc] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [d39f8fdc] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [568c9ac2] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [568c9ac2] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [568c9ac2] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [5582191e] Running [ -f /home/ray/ray-exercise/shared/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [5582191e] Command: [ -f /home/ray/ray-exercise/shared/config/secrets.yml ]
+ DEBUG [5582191e] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [9ae2d6e7] Running [ -f /home/ray/ray-exercise/current/REVISION ] as ray@172.104.88.136
+ DEBUG [9ae2d6e7] Command: [ -f /home/ray/ray-exercise/current/REVISION ]
+ DEBUG [9ae2d6e7] Finished in 0.076 seconds with exit status 1 (failed).
+ DEBUG [e8868630] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [e8868630] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [e8868630] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [53b6c12d] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [53b6c12d] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [53b6c12d] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [3a6aa6b8] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [3a6aa6b8] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [3a6aa6b8] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [bfdb5863] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [bfdb5863] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [bfdb5863] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [aae20faa] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [aae20faa] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [aae20faa] 	Fetching origin
+ DEBUG [aae20faa] 	From https://github.com/jioherry/shopping_cart
+   59d2c7f..f4afeb8  master     -> master
+  INFO [aae20faa] Finished in 1.018 seconds with exit status 0 (successful).
+ DEBUG [ce566de0] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [ce566de0] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [ce566de0] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [915783cd] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [915783cd] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [915783cd] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [2070c5b7] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [2070c5b7] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [2070c5b7] 	Fetching origin
+  INFO [2070c5b7] Finished in 0.771 seconds with exit status 0 (successful).
+ DEBUG [06cc9865] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [06cc9865] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [06cc9865] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [bf23925c] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141 as ray@172.104.88.136
+ DEBUG [bf23925c] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141 )
+  INFO [bf23925c] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [2c9b721c] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111141 as ray@172.104.88.136
+ DEBUG [2c9b721c] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111141 )
+  INFO [2c9b721c] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [95e43c9b] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [95e43c9b] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [95e43c9b] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [29486ff5] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141 as ray@172.104.88.136
+ DEBUG [29486ff5] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141 )
+  INFO [29486ff5] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [53934af5] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111141 as ray@172.104.88.136
+ DEBUG [53934af5] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111141 )
+  INFO [53934af5] Finished in 0.125 seconds with exit status 0 (successful).
+ DEBUG [8baee613] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [8baee613] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [8baee613] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [808ad83b] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [808ad83b] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [808ad83b] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [808ad83b] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [cb2cc773] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [cb2cc773] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [cb2cc773] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [9de8c002] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [9de8c002] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [9de8c002] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [9de8c002] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [457b1a1d] Running if test ! -d /home/ray/ray-exercise/releases/20170414111141; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111141'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [457b1a1d] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111141; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111141'" 1>&2; false; fi
+ DEBUG [457b1a1d] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [692efa6f] Running /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION as ray@172.104.88.136
+ DEBUG [692efa6f] Command: cd /home/ray/ray-exercise/releases/20170414111141 && /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION
+  INFO [692efa6f] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [8d7eeda3] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141/config as ray@172.104.88.136
+ DEBUG [8d7eeda3] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141/config
+  INFO [8d7eeda3] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [3a66de71] Running [ -L /home/ray/ray-exercise/releases/20170414111141/config/database.yml ] as ray@172.104.88.136
+ DEBUG [3a66de71] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/config/database.yml ]
+ DEBUG [3a66de71] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [67355fb6] Running [ -f /home/ray/ray-exercise/releases/20170414111141/config/database.yml ] as ray@172.104.88.136
+ DEBUG [67355fb6] Command: [ -f /home/ray/ray-exercise/releases/20170414111141/config/database.yml ]
+ DEBUG [67355fb6] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [55773e77] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111141/config/database.yml as ray@172.104.88.136
+ DEBUG [55773e77] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111141/config/database.yml
+  INFO [55773e77] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [0c7f6173] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414111141/config/database.yml as ray@172.104.88.136
+ DEBUG [0c7f6173] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414111141/config/database.yml
+  INFO [0c7f6173] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [1575d459] Running [ -L /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [1575d459] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml ]
+ DEBUG [1575d459] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [15827029] Running [ -f /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [15827029] Command: [ -f /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml ]
+ DEBUG [15827029] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [427d4d54] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml as ray@172.104.88.136
+ DEBUG [427d4d54] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml
+  INFO [427d4d54] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [70345557] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml as ray@172.104.88.136
+ DEBUG [70345557] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414111141/config/secrets.yml
+  INFO [70345557] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [8abeb003] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141 /home/ray/ray-exercise/releases/20170414111141/tmp /home/ray/ray-exercise/releases/20170414111141/public as ray@172.104.88.136
+ DEBUG [8abeb003] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111141 /home/ray/ray-exercise/releases/20170414111141/tmp /home/ray/ray-exercise/releases/20170414111141/public
+  INFO [8abeb003] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [05b5149c] Running [ -L /home/ray/ray-exercise/releases/20170414111141/log ] as ray@172.104.88.136
+ DEBUG [05b5149c] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/log ]
+ DEBUG [05b5149c] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [582eaa41] Running [ -d /home/ray/ray-exercise/releases/20170414111141/log ] as ray@172.104.88.136
+ DEBUG [582eaa41] Command: [ -d /home/ray/ray-exercise/releases/20170414111141/log ]
+ DEBUG [582eaa41] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [a35bc361] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111141/log as ray@172.104.88.136
+ DEBUG [a35bc361] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111141/log
+  INFO [a35bc361] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [f00bd6f8] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414111141/log as ray@172.104.88.136
+ DEBUG [f00bd6f8] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414111141/log
+  INFO [f00bd6f8] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [0e2930d3] Running [ -L /home/ray/ray-exercise/releases/20170414111141/tmp/pids ] as ray@172.104.88.136
+ DEBUG [0e2930d3] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/tmp/pids ]
+ DEBUG [0e2930d3] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [bb564047] Running [ -d /home/ray/ray-exercise/releases/20170414111141/tmp/pids ] as ray@172.104.88.136
+ DEBUG [bb564047] Command: [ -d /home/ray/ray-exercise/releases/20170414111141/tmp/pids ]
+ DEBUG [bb564047] Finished in 0.075 seconds with exit status 1 (failed).
+  INFO [59ada6b7] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414111141/tmp/pids as ray@172.104.88.136
+ DEBUG [59ada6b7] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414111141/tmp/pids
+  INFO [59ada6b7] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [d06bc805] Running [ -L /home/ray/ray-exercise/releases/20170414111141/tmp/cache ] as ray@172.104.88.136
+ DEBUG [d06bc805] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/tmp/cache ]
+ DEBUG [d06bc805] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [6ca08b53] Running [ -d /home/ray/ray-exercise/releases/20170414111141/tmp/cache ] as ray@172.104.88.136
+ DEBUG [6ca08b53] Command: [ -d /home/ray/ray-exercise/releases/20170414111141/tmp/cache ]
+ DEBUG [6ca08b53] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [38b8ad0b] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111141/tmp/cache as ray@172.104.88.136
+ DEBUG [38b8ad0b] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111141/tmp/cache
+  INFO [38b8ad0b] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [dbf8f668] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414111141/tmp/cache as ray@172.104.88.136
+ DEBUG [dbf8f668] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414111141/tmp/cache
+  INFO [dbf8f668] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [44146a11] Running [ -L /home/ray/ray-exercise/releases/20170414111141/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [44146a11] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/tmp/sockets ]
+ DEBUG [44146a11] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [d1c8f8f8] Running [ -d /home/ray/ray-exercise/releases/20170414111141/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [d1c8f8f8] Command: [ -d /home/ray/ray-exercise/releases/20170414111141/tmp/sockets ]
+ DEBUG [d1c8f8f8] Finished in 0.073 seconds with exit status 1 (failed).
+  INFO [87dcd3f0] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414111141/tmp/sockets as ray@172.104.88.136
+ DEBUG [87dcd3f0] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414111141/tmp/sockets
+  INFO [87dcd3f0] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [7332f7f6] Running [ -L /home/ray/ray-exercise/releases/20170414111141/public/system ] as ray@172.104.88.136
+ DEBUG [7332f7f6] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/public/system ]
+ DEBUG [7332f7f6] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [8252fc64] Running [ -d /home/ray/ray-exercise/releases/20170414111141/public/system ] as ray@172.104.88.136
+ DEBUG [8252fc64] Command: [ -d /home/ray/ray-exercise/releases/20170414111141/public/system ]
+ DEBUG [8252fc64] Finished in 0.072 seconds with exit status 1 (failed).
+  INFO [2389878b] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414111141/public/system as ray@172.104.88.136
+ DEBUG [2389878b] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414111141/public/system
+  INFO [2389878b] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [392125e1] Running [ -L /home/ray/ray-exercise/releases/20170414111141/public/assets ] as ray@172.104.88.136
+ DEBUG [392125e1] Command: [ -L /home/ray/ray-exercise/releases/20170414111141/public/assets ]
+ DEBUG [392125e1] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [cf23bf66] Running [ -d /home/ray/ray-exercise/releases/20170414111141/public/assets ] as ray@172.104.88.136
+ DEBUG [cf23bf66] Command: [ -d /home/ray/ray-exercise/releases/20170414111141/public/assets ]
+ DEBUG [cf23bf66] Finished in 0.074 seconds with exit status 1 (failed).
+  INFO [1437f52b] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414111141/public/assets as ray@172.104.88.136
+ DEBUG [1437f52b] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414111141/public/assets
+  INFO [1437f52b] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [a722b527] Running if test ! -d /home/ray/ray-exercise/releases/20170414111141; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111141'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [a722b527] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111141; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111141'" 1>&2; false; fi
+ DEBUG [a722b527] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [74d93a54] Running /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle as ray@172.104.88.136
+ DEBUG [74d93a54] Command: cd /home/ray/ray-exercise/releases/20170414111141 && /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle
+ DEBUG [74d93a54] 	The following gems are missing
+ DEBUG [74d93a54] 	 * net-ssh (4.1.0)
+ DEBUG [74d93a54] 	 * net-scp (1.2.1)
+ DEBUG [74d93a54] 	 * sshkit (1.13.1)
+ DEBUG [74d93a54] 	 * airbrussh (1.1.2)
+ DEBUG [74d93a54] 	 * bindex (0.5.0)
+ DEBUG [74d93a54] 	 * byebug (9.0.6)
+ DEBUG [74d93a54] 	 * capistrano (3.8.0)
+ DEBUG [74d93a54] 	 * capistrano-bundler (1.2.0)
+ DEBUG [74d93a54] 	 * capistrano-passenger (0.2.0)
+ DEBUG [74d93a54] 	 * capistrano-rails (1.2.3)
+ DEBUG [74d93a54] 	 * ffi (1.9.18)
+ DEBUG [74d93a54] 	 * rb-fsevent (0.9.8)
+ DEBUG [74d93a54] 	 * rb-inotify (0.9.8)
+ DEBUG [74d93a54] 	 * listen (3.0.8)
+ DEBUG [74d93a54] 	 * spring (2.0.1)
+ DEBUG [74d93a54] 	 * spring-watcher-listen (2.0.1)
+ DEBUG [74d93a54] 	 * web-console (3.5.0)
+ DEBUG [74d93a54] 	Install missing gems with `bundle install`
+ DEBUG [74d93a54] Finished in 0.599 seconds with exit status 1 (failed).
+  INFO [966202bd] Running /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet as ray@172.104.88.136
+ DEBUG [966202bd] Command: cd /home/ray/ray-exercise/releases/20170414111141 && /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet
+  INFO [966202bd] Finished in 2.454 seconds with exit status 0 (successful).
+ DEBUG [1eb039d3] Running if test ! -d /home/ray/ray-exercise/releases/20170414111141; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111141'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [1eb039d3] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111141; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111141'" 1>&2; false; fi
+ DEBUG [1eb039d3] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [03bb1da6] Running bundle exec rake assets:precompile as ray@172.104.88.136
+ DEBUG [03bb1da6] Command: cd /home/ray/ray-exercise/releases/20170414111141 && ( export RAILS_ENV="production" ; bundle exec rake assets:precompile )
+ DEBUG [03bb1da6] 	rake aborted!
+ DEBUG [03bb1da6] 	Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 3 column 1
+ DEBUG [03bb1da6] 	/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:391:in `secrets'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/devise-4.2.1/lib/devise/rails.rb:36:in `block in <class:Engine>'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:30:in `instance_exec'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:30:in `run'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:54:in `run_initializers'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:352:in `initialize!'
+/home/ray/ray-exercise/releases/20170414111141/config/environment.rb:5:in `<top (required)>'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:293:in `require'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:293:in `block in require'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:293:in `require'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:328:in `require_environment!'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:448:in `block in run_tasks_blocks'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.0/lib/sprockets/rails/task.rb:62:in `block (2 levels) in define'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+ DEBUG [03bb1da6] 	Tasks: TOP => environment
+ DEBUG [03bb1da6] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 19:14:44 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5a70e818] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [5a70e818] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5a70e818] Finished in 0.824 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [9ab16205] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [9ab16205] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [9ab16205] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [d8212f3e] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [d8212f3e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d8212f3e] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [e1cf0499] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [e1cf0499] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [e1cf0499] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [d639e107] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [d639e107] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [d639e107] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [d639e107] Finished in 0.795 seconds with exit status 0 (successful).
+  INFO [f8cec369] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [f8cec369] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [f8cec369] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [f8cec369] Finished in 0.818 seconds with exit status 0 (successful).
+  INFO [166a9886] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [166a9886] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [166a9886] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [70482862] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [70482862] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [70482862] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [31953efb] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [31953efb] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [31953efb] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [87ebb3dd] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [87ebb3dd] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [87ebb3dd] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [ebadaa9f] Running [ -f /home/ray/ray-exercise/shared/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [ebadaa9f] Command: [ -f /home/ray/ray-exercise/shared/config/secrets.yml ]
+ DEBUG [ebadaa9f] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [eeef3ece] Running [ -f /home/ray/ray-exercise/current/REVISION ] as ray@172.104.88.136
+ DEBUG [eeef3ece] Command: [ -f /home/ray/ray-exercise/current/REVISION ]
+ DEBUG [eeef3ece] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [a9ab1bd1] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [a9ab1bd1] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [a9ab1bd1] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [2c242277] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [2c242277] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [2c242277] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [4ee829f5] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [4ee829f5] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [4ee829f5] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [03e5fa83] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [03e5fa83] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [03e5fa83] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [7814293f] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [7814293f] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7814293f] 	Fetching origin
+  INFO [7814293f] Finished in 0.885 seconds with exit status 0 (successful).
+ DEBUG [243ffdef] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [243ffdef] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [243ffdef] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [81fd5ef4] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [81fd5ef4] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [81fd5ef4] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [b2b94b01] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [b2b94b01] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b2b94b01] 	Fetching origin
+  INFO [b2b94b01] Finished in 0.872 seconds with exit status 0 (successful).
+ DEBUG [f7649315] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [f7649315] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [f7649315] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [87bfeb76] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448 as ray@172.104.88.136
+ DEBUG [87bfeb76] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448 )
+  INFO [87bfeb76] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [5c5f53d5] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111448 as ray@172.104.88.136
+ DEBUG [5c5f53d5] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111448 )
+  INFO [5c5f53d5] Finished in 0.191 seconds with exit status 0 (successful).
+ DEBUG [7a6496a8] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [7a6496a8] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [7a6496a8] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [e186f050] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448 as ray@172.104.88.136
+ DEBUG [e186f050] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448 )
+  INFO [e186f050] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [265bee04] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111448 as ray@172.104.88.136
+ DEBUG [265bee04] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111448 )
+  INFO [265bee04] Finished in 0.181 seconds with exit status 0 (successful).
+ DEBUG [b91a745d] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [b91a745d] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [b91a745d] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [58a181e8] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [58a181e8] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [58a181e8] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [58a181e8] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [21d0aa3f] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [21d0aa3f] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [21d0aa3f] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [996e9e3d] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [996e9e3d] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [996e9e3d] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [996e9e3d] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [b225fe9f] Running if test ! -d /home/ray/ray-exercise/releases/20170414111448; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111448'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [b225fe9f] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111448; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111448'" 1>&2; false; fi
+ DEBUG [b225fe9f] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [e39ed8d9] Running /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION as ray@172.104.88.136
+ DEBUG [e39ed8d9] Command: cd /home/ray/ray-exercise/releases/20170414111448 && /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION
+  INFO [e39ed8d9] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [e152102d] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448/config as ray@172.104.88.136
+ DEBUG [e152102d] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448/config
+  INFO [e152102d] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [1501fbb0] Running [ -L /home/ray/ray-exercise/releases/20170414111448/config/database.yml ] as ray@172.104.88.136
+ DEBUG [1501fbb0] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/config/database.yml ]
+ DEBUG [1501fbb0] Finished in 0.071 seconds with exit status 1 (failed).
+ DEBUG [0d6953b6] Running [ -f /home/ray/ray-exercise/releases/20170414111448/config/database.yml ] as ray@172.104.88.136
+ DEBUG [0d6953b6] Command: [ -f /home/ray/ray-exercise/releases/20170414111448/config/database.yml ]
+ DEBUG [0d6953b6] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [70abc847] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111448/config/database.yml as ray@172.104.88.136
+ DEBUG [70abc847] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111448/config/database.yml
+  INFO [70abc847] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [b89d5fe1] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414111448/config/database.yml as ray@172.104.88.136
+ DEBUG [b89d5fe1] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414111448/config/database.yml
+  INFO [b89d5fe1] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [751cc057] Running [ -L /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [751cc057] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml ]
+ DEBUG [751cc057] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [d98ed236] Running [ -f /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [d98ed236] Command: [ -f /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml ]
+ DEBUG [d98ed236] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [9d706eae] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml as ray@172.104.88.136
+ DEBUG [9d706eae] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml
+  INFO [9d706eae] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [be875893] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml as ray@172.104.88.136
+ DEBUG [be875893] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414111448/config/secrets.yml
+  INFO [be875893] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [b4208239] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448 /home/ray/ray-exercise/releases/20170414111448/tmp /home/ray/ray-exercise/releases/20170414111448/public as ray@172.104.88.136
+ DEBUG [b4208239] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111448 /home/ray/ray-exercise/releases/20170414111448/tmp /home/ray/ray-exercise/releases/20170414111448/public
+  INFO [b4208239] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [d2a21c89] Running [ -L /home/ray/ray-exercise/releases/20170414111448/log ] as ray@172.104.88.136
+ DEBUG [d2a21c89] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/log ]
+ DEBUG [d2a21c89] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [97e76b2a] Running [ -d /home/ray/ray-exercise/releases/20170414111448/log ] as ray@172.104.88.136
+ DEBUG [97e76b2a] Command: [ -d /home/ray/ray-exercise/releases/20170414111448/log ]
+ DEBUG [97e76b2a] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [36509e11] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111448/log as ray@172.104.88.136
+ DEBUG [36509e11] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111448/log
+  INFO [36509e11] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [01938b05] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414111448/log as ray@172.104.88.136
+ DEBUG [01938b05] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414111448/log
+  INFO [01938b05] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [c6f0efd6] Running [ -L /home/ray/ray-exercise/releases/20170414111448/tmp/pids ] as ray@172.104.88.136
+ DEBUG [c6f0efd6] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/tmp/pids ]
+ DEBUG [c6f0efd6] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [da3e243b] Running [ -d /home/ray/ray-exercise/releases/20170414111448/tmp/pids ] as ray@172.104.88.136
+ DEBUG [da3e243b] Command: [ -d /home/ray/ray-exercise/releases/20170414111448/tmp/pids ]
+ DEBUG [da3e243b] Finished in 0.074 seconds with exit status 1 (failed).
+  INFO [fdf5c379] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414111448/tmp/pids as ray@172.104.88.136
+ DEBUG [fdf5c379] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414111448/tmp/pids
+  INFO [fdf5c379] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [eaa6c873] Running [ -L /home/ray/ray-exercise/releases/20170414111448/tmp/cache ] as ray@172.104.88.136
+ DEBUG [eaa6c873] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/tmp/cache ]
+ DEBUG [eaa6c873] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [fe32029b] Running [ -d /home/ray/ray-exercise/releases/20170414111448/tmp/cache ] as ray@172.104.88.136
+ DEBUG [fe32029b] Command: [ -d /home/ray/ray-exercise/releases/20170414111448/tmp/cache ]
+ DEBUG [fe32029b] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [24c014e7] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111448/tmp/cache as ray@172.104.88.136
+ DEBUG [24c014e7] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111448/tmp/cache
+  INFO [24c014e7] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [017e4fb4] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414111448/tmp/cache as ray@172.104.88.136
+ DEBUG [017e4fb4] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414111448/tmp/cache
+  INFO [017e4fb4] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [2be71cf6] Running [ -L /home/ray/ray-exercise/releases/20170414111448/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [2be71cf6] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/tmp/sockets ]
+ DEBUG [2be71cf6] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [52216b0a] Running [ -d /home/ray/ray-exercise/releases/20170414111448/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [52216b0a] Command: [ -d /home/ray/ray-exercise/releases/20170414111448/tmp/sockets ]
+ DEBUG [52216b0a] Finished in 0.072 seconds with exit status 1 (failed).
+  INFO [8df599f7] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414111448/tmp/sockets as ray@172.104.88.136
+ DEBUG [8df599f7] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414111448/tmp/sockets
+  INFO [8df599f7] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [d863c8a0] Running [ -L /home/ray/ray-exercise/releases/20170414111448/public/system ] as ray@172.104.88.136
+ DEBUG [d863c8a0] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/public/system ]
+ DEBUG [d863c8a0] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [9d428adf] Running [ -d /home/ray/ray-exercise/releases/20170414111448/public/system ] as ray@172.104.88.136
+ DEBUG [9d428adf] Command: [ -d /home/ray/ray-exercise/releases/20170414111448/public/system ]
+ DEBUG [9d428adf] Finished in 0.073 seconds with exit status 1 (failed).
+  INFO [888186f4] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414111448/public/system as ray@172.104.88.136
+ DEBUG [888186f4] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414111448/public/system
+  INFO [888186f4] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [77a18986] Running [ -L /home/ray/ray-exercise/releases/20170414111448/public/assets ] as ray@172.104.88.136
+ DEBUG [77a18986] Command: [ -L /home/ray/ray-exercise/releases/20170414111448/public/assets ]
+ DEBUG [77a18986] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [d90fcfaf] Running [ -d /home/ray/ray-exercise/releases/20170414111448/public/assets ] as ray@172.104.88.136
+ DEBUG [d90fcfaf] Command: [ -d /home/ray/ray-exercise/releases/20170414111448/public/assets ]
+ DEBUG [d90fcfaf] Finished in 0.072 seconds with exit status 1 (failed).
+  INFO [c17196b0] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414111448/public/assets as ray@172.104.88.136
+ DEBUG [c17196b0] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414111448/public/assets
+  INFO [c17196b0] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [c64eb06b] Running if test ! -d /home/ray/ray-exercise/releases/20170414111448; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111448'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [c64eb06b] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111448; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111448'" 1>&2; false; fi
+ DEBUG [c64eb06b] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [5f0dac48] Running /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle as ray@172.104.88.136
+ DEBUG [5f0dac48] Command: cd /home/ray/ray-exercise/releases/20170414111448 && /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle
+ DEBUG [5f0dac48] 	The following gems are missing
+ DEBUG [5f0dac48] 	 * net-ssh (4.1.0)
+ DEBUG [5f0dac48] 	 * net-scp (1.2.1)
+ DEBUG [5f0dac48] 	 * sshkit (1.13.1)
+ DEBUG [5f0dac48] 	 * airbrussh (1.1.2)
+ DEBUG [5f0dac48] 	 * bindex (0.5.0)
+ DEBUG [5f0dac48] 	 * byebug (9.0.6)
+ DEBUG [5f0dac48] 	 * capistrano (3.8.0)
+ DEBUG [5f0dac48] 	 * capistrano-bundler (1.2.0)
+ DEBUG [5f0dac48] 	 * capistrano-passenger (0.2.0)
+ DEBUG [5f0dac48] 	 * capistrano-rails (1.2.3)
+ DEBUG [5f0dac48] 	 * ffi (1.9.18)
+ DEBUG [5f0dac48] 	 * rb-fsevent (0.9.8)
+ DEBUG [5f0dac48] 	 * rb-inotify (0.9.8)
+ DEBUG [5f0dac48] 	 * listen (3.0.8)
+ DEBUG [5f0dac48] 	 * spring (2.0.1)
+ DEBUG [5f0dac48] 	 * spring-watcher-listen (2.0.1)
+ DEBUG [5f0dac48] 	 * web-console (3.5.0)
+ DEBUG [5f0dac48] 	Install missing gems with `bundle install`
+ DEBUG [5f0dac48] Finished in 0.855 seconds with exit status 1 (failed).
+  INFO [5b742fff] Running /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet as ray@172.104.88.136
+ DEBUG [5b742fff] Command: cd /home/ray/ray-exercise/releases/20170414111448 && /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet
+  INFO [5b742fff] Finished in 5.833 seconds with exit status 0 (successful).
+ DEBUG [6cfaf0b0] Running if test ! -d /home/ray/ray-exercise/releases/20170414111448; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111448'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [6cfaf0b0] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111448; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111448'" 1>&2; false; fi
+ DEBUG [6cfaf0b0] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [40242d59] Running bundle exec rake assets:precompile as ray@172.104.88.136
+ DEBUG [40242d59] Command: cd /home/ray/ray-exercise/releases/20170414111448 && ( export RAILS_ENV="production" ; bundle exec rake assets:precompile )
+ DEBUG [40242d59] 	rake aborted!
+ DEBUG [40242d59] 	Psych::SyntaxError: (<unknown>): could not find expected ':' while scanning a simple key at line 3 column 1
+ DEBUG [40242d59] 	/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:391:in `secrets'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/devise-4.2.1/lib/devise/rails.rb:36:in `block in <class:Engine>'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:30:in `instance_exec'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:30:in `run'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/initializable.rb:54:in `run_initializers'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:352:in `initialize!'
+/home/ray/ray-exercise/releases/20170414111448/config/environment.rb:5:in `<top (required)>'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:293:in `require'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:293:in `block in require'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/dependencies.rb:293:in `require'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:328:in `require_environment!'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/railties-5.0.2/lib/rails/application.rb:448:in `block in run_tasks_blocks'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.0/lib/sprockets/rails/task.rb:62:in `block (2 levels) in define'
+/home/ray/ray-exercise/shared/bundle/ruby/2.3.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+ DEBUG [40242d59] 	Tasks: TOP => environment
+ DEBUG [40242d59] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 19:16:29 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f65e5364] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [f65e5364] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f65e5364] Finished in 0.625 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [1fde3dc7] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [1fde3dc7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [1fde3dc7] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [156ed440] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [156ed440] Command: /usr/bin/env mkdir -p /tmp
+  INFO [156ed440] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [82d09b56] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [82d09b56] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [82d09b56] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [f1581a20] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [f1581a20] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [f1581a20] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [f1581a20] Finished in 0.744 seconds with exit status 0 (successful).
+  INFO [976e8d0a] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [976e8d0a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [976e8d0a] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [976e8d0a] Finished in 0.810 seconds with exit status 0 (successful).
+  INFO [14740fe7] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [14740fe7] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [14740fe7] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [1ea0e95c] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [1ea0e95c] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [1ea0e95c] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [428caf75] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [428caf75] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [428caf75] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [d5f65cd4] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [d5f65cd4] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [d5f65cd4] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [b12f7e3b] Running [ -f /home/ray/ray-exercise/shared/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [b12f7e3b] Command: [ -f /home/ray/ray-exercise/shared/config/secrets.yml ]
+ DEBUG [b12f7e3b] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [0e59aaf1] Running [ -f /home/ray/ray-exercise/current/REVISION ] as ray@172.104.88.136
+ DEBUG [0e59aaf1] Command: [ -f /home/ray/ray-exercise/current/REVISION ]
+ DEBUG [0e59aaf1] Finished in 0.075 seconds with exit status 1 (failed).
+ DEBUG [8e0fbb36] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [8e0fbb36] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [8e0fbb36] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [955bd77f] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [955bd77f] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [955bd77f] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [d08187c1] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [d08187c1] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [d08187c1] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [1c8dda4f] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [1c8dda4f] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [1c8dda4f] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [729b19c7] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [729b19c7] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [729b19c7] 	Fetching origin
+  INFO [729b19c7] Finished in 0.775 seconds with exit status 0 (successful).
+ DEBUG [e25ac04a] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [e25ac04a] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [e25ac04a] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [1a54e631] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [1a54e631] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [1a54e631] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [38c5bd1d] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [38c5bd1d] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [38c5bd1d] 	Fetching origin
+  INFO [38c5bd1d] Finished in 0.770 seconds with exit status 0 (successful).
+ DEBUG [85d550f1] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [85d550f1] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [85d550f1] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [c4dd54fe] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633 as ray@172.104.88.136
+ DEBUG [c4dd54fe] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633 )
+  INFO [c4dd54fe] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [70a77cbc] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111633 as ray@172.104.88.136
+ DEBUG [70a77cbc] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111633 )
+  INFO [70a77cbc] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [de2ec4fe] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [de2ec4fe] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [de2ec4fe] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [2a88a9d3] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633 as ray@172.104.88.136
+ DEBUG [2a88a9d3] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633 )
+  INFO [2a88a9d3] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [116f1683] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111633 as ray@172.104.88.136
+ DEBUG [116f1683] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414111633 )
+  INFO [116f1683] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [08e974e1] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [08e974e1] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [08e974e1] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [48189c00] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [48189c00] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [48189c00] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [48189c00] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [bf04564d] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [bf04564d] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [bf04564d] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [59e2cc83] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [59e2cc83] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [59e2cc83] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [59e2cc83] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [02e709be] Running if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [02e709be] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi
+ DEBUG [02e709be] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [90a02e18] Running /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION as ray@172.104.88.136
+ DEBUG [90a02e18] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION
+  INFO [90a02e18] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [586035b5] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633/config as ray@172.104.88.136
+ DEBUG [586035b5] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633/config
+  INFO [586035b5] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [b7e94a8c] Running [ -L /home/ray/ray-exercise/releases/20170414111633/config/database.yml ] as ray@172.104.88.136
+ DEBUG [b7e94a8c] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/config/database.yml ]
+ DEBUG [b7e94a8c] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [6fc872c6] Running [ -f /home/ray/ray-exercise/releases/20170414111633/config/database.yml ] as ray@172.104.88.136
+ DEBUG [6fc872c6] Command: [ -f /home/ray/ray-exercise/releases/20170414111633/config/database.yml ]
+ DEBUG [6fc872c6] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [46de86ae] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111633/config/database.yml as ray@172.104.88.136
+ DEBUG [46de86ae] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111633/config/database.yml
+  INFO [46de86ae] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [9cf98395] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414111633/config/database.yml as ray@172.104.88.136
+ DEBUG [9cf98395] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414111633/config/database.yml
+  INFO [9cf98395] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [3a51e75e] Running [ -L /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [3a51e75e] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml ]
+ DEBUG [3a51e75e] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [ac24b2a3] Running [ -f /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [ac24b2a3] Command: [ -f /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml ]
+ DEBUG [ac24b2a3] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [a4499f44] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml as ray@172.104.88.136
+ DEBUG [a4499f44] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml
+  INFO [a4499f44] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [661a0dbb] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml as ray@172.104.88.136
+ DEBUG [661a0dbb] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414111633/config/secrets.yml
+  INFO [661a0dbb] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [b47a8e33] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633 /home/ray/ray-exercise/releases/20170414111633/tmp /home/ray/ray-exercise/releases/20170414111633/public as ray@172.104.88.136
+ DEBUG [b47a8e33] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633 /home/ray/ray-exercise/releases/20170414111633/tmp /home/ray/ray-exercise/releases/20170414111633/public
+  INFO [b47a8e33] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [612b2549] Running [ -L /home/ray/ray-exercise/releases/20170414111633/log ] as ray@172.104.88.136
+ DEBUG [612b2549] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/log ]
+ DEBUG [612b2549] Finished in 0.084 seconds with exit status 1 (failed).
+ DEBUG [0b7557f4] Running [ -d /home/ray/ray-exercise/releases/20170414111633/log ] as ray@172.104.88.136
+ DEBUG [0b7557f4] Command: [ -d /home/ray/ray-exercise/releases/20170414111633/log ]
+ DEBUG [0b7557f4] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [de5ce47c] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111633/log as ray@172.104.88.136
+ DEBUG [de5ce47c] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111633/log
+  INFO [de5ce47c] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [fb3a498a] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414111633/log as ray@172.104.88.136
+ DEBUG [fb3a498a] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414111633/log
+  INFO [fb3a498a] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [440b33b5] Running [ -L /home/ray/ray-exercise/releases/20170414111633/tmp/pids ] as ray@172.104.88.136
+ DEBUG [440b33b5] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/tmp/pids ]
+ DEBUG [440b33b5] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [510734a4] Running [ -d /home/ray/ray-exercise/releases/20170414111633/tmp/pids ] as ray@172.104.88.136
+ DEBUG [510734a4] Command: [ -d /home/ray/ray-exercise/releases/20170414111633/tmp/pids ]
+ DEBUG [510734a4] Finished in 0.075 seconds with exit status 1 (failed).
+  INFO [d5044f5f] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414111633/tmp/pids as ray@172.104.88.136
+ DEBUG [d5044f5f] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414111633/tmp/pids
+  INFO [d5044f5f] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [02d38add] Running [ -L /home/ray/ray-exercise/releases/20170414111633/tmp/cache ] as ray@172.104.88.136
+ DEBUG [02d38add] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/tmp/cache ]
+ DEBUG [02d38add] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [f2f6357d] Running [ -d /home/ray/ray-exercise/releases/20170414111633/tmp/cache ] as ray@172.104.88.136
+ DEBUG [f2f6357d] Command: [ -d /home/ray/ray-exercise/releases/20170414111633/tmp/cache ]
+ DEBUG [f2f6357d] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [aa0c4caa] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111633/tmp/cache as ray@172.104.88.136
+ DEBUG [aa0c4caa] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414111633/tmp/cache
+  INFO [aa0c4caa] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [8ae1c851] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414111633/tmp/cache as ray@172.104.88.136
+ DEBUG [8ae1c851] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414111633/tmp/cache
+  INFO [8ae1c851] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [521cbbe6] Running [ -L /home/ray/ray-exercise/releases/20170414111633/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [521cbbe6] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/tmp/sockets ]
+ DEBUG [521cbbe6] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [e915e69f] Running [ -d /home/ray/ray-exercise/releases/20170414111633/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [e915e69f] Command: [ -d /home/ray/ray-exercise/releases/20170414111633/tmp/sockets ]
+ DEBUG [e915e69f] Finished in 0.072 seconds with exit status 1 (failed).
+  INFO [a7f584d7] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414111633/tmp/sockets as ray@172.104.88.136
+ DEBUG [a7f584d7] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414111633/tmp/sockets
+  INFO [a7f584d7] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [c196f710] Running [ -L /home/ray/ray-exercise/releases/20170414111633/public/system ] as ray@172.104.88.136
+ DEBUG [c196f710] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/public/system ]
+ DEBUG [c196f710] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [11510b00] Running [ -d /home/ray/ray-exercise/releases/20170414111633/public/system ] as ray@172.104.88.136
+ DEBUG [11510b00] Command: [ -d /home/ray/ray-exercise/releases/20170414111633/public/system ]
+ DEBUG [11510b00] Finished in 0.075 seconds with exit status 1 (failed).
+  INFO [bd324d13] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414111633/public/system as ray@172.104.88.136
+ DEBUG [bd324d13] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414111633/public/system
+  INFO [bd324d13] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [665171ae] Running [ -L /home/ray/ray-exercise/releases/20170414111633/public/assets ] as ray@172.104.88.136
+ DEBUG [665171ae] Command: [ -L /home/ray/ray-exercise/releases/20170414111633/public/assets ]
+ DEBUG [665171ae] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [607117dc] Running [ -d /home/ray/ray-exercise/releases/20170414111633/public/assets ] as ray@172.104.88.136
+ DEBUG [607117dc] Command: [ -d /home/ray/ray-exercise/releases/20170414111633/public/assets ]
+ DEBUG [607117dc] Finished in 0.073 seconds with exit status 1 (failed).
+  INFO [bd9946dc] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414111633/public/assets as ray@172.104.88.136
+ DEBUG [bd9946dc] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414111633/public/assets
+  INFO [bd9946dc] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [5d96ffd1] Running if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [5d96ffd1] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi
+ DEBUG [5d96ffd1] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [7e0ab1c1] Running /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle as ray@172.104.88.136
+ DEBUG [7e0ab1c1] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle
+ DEBUG [7e0ab1c1] 	The following gems are missing
+ DEBUG [7e0ab1c1] 	 * net-ssh (4.1.0)
+ DEBUG [7e0ab1c1] 	 * net-scp (1.2.1)
+ DEBUG [7e0ab1c1] 	 * sshkit (1.13.1)
+ DEBUG [7e0ab1c1] 	 * airbrussh (1.1.2)
+ DEBUG [7e0ab1c1] 	 * bindex (0.5.0)
+ DEBUG [7e0ab1c1] 	 * byebug (9.0.6)
+ DEBUG [7e0ab1c1] 	 * capistrano (3.8.0)
+ DEBUG [7e0ab1c1] 	 * capistrano-bundler (1.2.0)
+ DEBUG [7e0ab1c1] 	 * capistrano-passenger (0.2.0)
+ DEBUG [7e0ab1c1] 	 * capistrano-rails (1.2.3)
+ DEBUG [7e0ab1c1] 	 * ffi (1.9.18)
+ DEBUG [7e0ab1c1] 	 * rb-fsevent (0.9.8)
+ DEBUG [7e0ab1c1] 	 * rb-inotify (0.9.8)
+ DEBUG [7e0ab1c1] 	 * listen (3.0.8)
+ DEBUG [7e0ab1c1] 	 * spring (2.0.1)
+ DEBUG [7e0ab1c1] 	 * spring-watcher-listen (2.0.1)
+ DEBUG [7e0ab1c1] 	 * web-console (3.5.0)
+ DEBUG [7e0ab1c1] 	Install missing gems with `bundle install`
+ DEBUG [7e0ab1c1] Finished in 0.605 seconds with exit status 1 (failed).
+  INFO [44bdd8f7] Running /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet as ray@172.104.88.136
+ DEBUG [44bdd8f7] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet
+  INFO [44bdd8f7] Finished in 2.148 seconds with exit status 0 (successful).
+ DEBUG [529b1d5e] Running if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [529b1d5e] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi
+ DEBUG [529b1d5e] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [35955588] Running bundle exec rake assets:precompile as ray@172.104.88.136
+ DEBUG [35955588] Command: cd /home/ray/ray-exercise/releases/20170414111633 && ( export RAILS_ENV="production" ; bundle exec rake assets:precompile )
+ DEBUG [35955588] 	I, [2017-04-14T19:16:47.248207 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/application-4a160972215471c54e338c406254874815affbf1fc8cc1cc8d63d1c02fbc2fe3.js
+ DEBUG [35955588] 	I, [2017-04-14T19:16:47.249975 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/application-4a160972215471c54e338c406254874815affbf1fc8cc1cc8d63d1c02fbc2fe3.js.gz
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.176728 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/application-895ae8ca2b3268d6153266e6779a6d89796096e2da27247f1558a72aa570cff9.css
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.177324 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/application-895ae8ca2b3268d6153266e6779a6d89796096e2da27247f1558a72aa570cff9.css.gz
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.177747 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.182841 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.183191 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.184696 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.185276 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.185691 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.186086 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg
+ DEBUG [35955588] 	I, [2017-04-14T19:16:55.189854 #9754]  INFO -- : Writing /home/ray/ray-exercise/releases/20170414111633/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz
+  INFO [35955588] Finished in 14.163 seconds with exit status 0 (successful).
+ DEBUG [b57964b1] Running if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [b57964b1] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi
+ DEBUG [b57964b1] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [baee3dc0] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633/assets_manifest_backup as ray@172.104.88.136
+ DEBUG [baee3dc0] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633/assets_manifest_backup
+  INFO [baee3dc0] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [e39f9084] Running /usr/bin/env ls /home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest* as ray@172.104.88.136
+ DEBUG [e39f9084] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env ls /home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest*
+ DEBUG [e39f9084] 	/home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json
+ DEBUG [e39f9084] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [ff691244] Running /usr/bin/env ls /home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest* as ray@172.104.88.136
+ DEBUG [ff691244] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env ls /home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest*
+ DEBUG [ff691244] 	/home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json
+ DEBUG [ff691244] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [dea4ea71] Running /usr/bin/env cp /home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json /home/ray/ray-exercise/releases/20170414111633/assets_manifest_backup as ray@172.104.88.136
+ DEBUG [dea4ea71] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env cp /home/ray/ray-exercise/releases/20170414111633/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json /home/ray/ray-exercise/releases/20170414111633/assets_manifest_backup
+  INFO [dea4ea71] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [8a239798] Running if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [8a239798] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi
+ DEBUG [8a239798] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [da63cd54] Running bundle exec rake db:migrate as ray@172.104.88.136
+ DEBUG [da63cd54] Command: cd /home/ray/ray-exercise/releases/20170414111633 && ( export RAILS_ENV="production" ; bundle exec rake db:migrate )
+ DEBUG [da63cd54] 	== 20170405135114 DeviseCreateUsers: migrating ================================
+-- create_table(:users)
+   -> 0.0131s
+-- add_index(:users, :email, {:unique=>true})
+   -> 0.0097s
+-- add_index(:users, :reset_password_token, {:unique=>true})
+   -> 0.0048s
+== 20170405135114 DeviseCreateUsers: migrated (0.0278s) =======================
+
+== 20170405135330 AddNameToUsers: migrating ===================================
+-- add_column(:users, :name, :string)
+   -> 0.0149s
+-- add_column(:users, :profile_id, :integer)
+   -> 0.0144s
+== 20170405135330 AddNameToUsers: migrated (0.0295s) ==========================
+
+== 20170405135804 CreateProfiles: migrating ===================================
+-- create_table(:profiles)
+   -> 0.0418s
+== 20170405135804 CreateProfiles: migrated (0.0418s) ==========================
+
+== 20170407024353 AddColumnUserIdToProfile: migrating =========================
+-- add_column(:profiles, :user_id, :integer)
+   -> 0.0106s
+== 20170407024353 AddColumnUserIdToProfile: migrated (0.0106s) ================
+
+== 20170407024815 RemoveColumnWithUserId: migrating ===========================
+-- remove_column(:users, :profile_id)
+   -> 0.0121s
+== 20170407024815 RemoveColumnWithUserId: migrated (0.0121s) ==================
+
+== 20170407031623 CreateProducts: migrating ===================================
+-- create_table(:products)
+   -> 0.0070s
+== 20170407031623 CreateProducts: migrated (0.0070s) ==========================
+
+== 20170407034013 CreateCarts: migrating ======================================
+-- create_table(:carts)
+   -> 0.0066s
+== 20170407034013 CreateCarts: migrated (0.0066s) =============================
+
+== 20170407034911 AddColumnPriceToProduct: migrating ==========================
+-- add_column(:products, :price, :integer, {:default=>0})
+   -> 0.0104s
+== 20170407034911 AddColumnPriceToProduct: migrated (0.0104s) =================
+
+== 20170407061452 CreateCartItems: migrating ==================================
+-- create_table(:cart_items)
+   -> 0.0059s
+== 20170407061452 CreateCartItems: migrated (0.0059s) =========================
+
+== 20170408033015 AddColumnQuantityToCartItems: migrating =====================
+-- add_column(:cart_items, :quantity, :integer)
+   -> 0.0115s
+== 20170408033015 AddColumnQuantityToCartItems: migrated (0.0115s) ============
+
+== 20170408084615 CreateOrders: migrating =====================================
+-- create_table(:orders)
+   -> 0.0069s
+== 20170408084615 CreateOrders: migrated (0.0070s) ============================
+
+== 20170408090039 CreateOrderItems: migrating =================================
+-- create_table(:order_items)
+   -> 0.0261s
+== 20170408090039 CreateOrderItems: migrated (0.0262s) ========================
+
+== 20170408094522 AddColumnToOrders: migrating ================================
+-- add_column(:orders, :amount, :integer)
+   -> 0.0129s
+-- add_column(:orders, :payment_method, :integer)
+   -> 0.0134s
+== 20170408094522 AddColumnToOrders: migrated (0.0264s) =======================
+
+== 20170409055633 AddStatusToOrder: migrating =================================
+-- add_column(:orders, :order_status, :integer, {:default=>0})
+   -> 0.0134s
+-- add_column(:orders, :payment_status, :integer)
+   -> 0.0152s
+-- add_index(:orders, :order_status)
+   -> 0.0077s
+-- add_index(:orders, :payment_status)
+   -> 0.0084s
+== 20170409055633 AddStatusToOrder: migrated (0.0449s) ========================
+
+  INFO [da63cd54] Finished in 2.825 seconds with exit status 0 (successful).
+  INFO [a5342a01] Running /usr/bin/env ln -s /home/ray/ray-exercise/releases/20170414111633 /home/ray/ray-exercise/releases/current as ray@172.104.88.136
+ DEBUG [a5342a01] Command: /usr/bin/env ln -s /home/ray/ray-exercise/releases/20170414111633 /home/ray/ray-exercise/releases/current
+  INFO [a5342a01] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [d98e186d] Running /usr/bin/env mv /home/ray/ray-exercise/releases/current /home/ray/ray-exercise as ray@172.104.88.136
+ DEBUG [d98e186d] Command: /usr/bin/env mv /home/ray/ray-exercise/releases/current /home/ray/ray-exercise
+  INFO [d98e186d] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [fb8a96d2] Running if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [fb8a96d2] Command: if test ! -d /home/ray/ray-exercise/releases/20170414111633; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414111633'" 1>&2; false; fi
+ DEBUG [fb8a96d2] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [ff15cf1d] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633/tmp as ray@172.104.88.136
+ DEBUG [ff15cf1d] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414111633/tmp
+  INFO [ff15cf1d] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [e92bcf08] Running /usr/bin/env touch /home/ray/ray-exercise/releases/20170414111633/tmp/restart.txt as ray@172.104.88.136
+ DEBUG [e92bcf08] Command: cd /home/ray/ray-exercise/releases/20170414111633 && /usr/bin/env touch /home/ray/ray-exercise/releases/20170414111633/tmp/restart.txt
+  INFO [e92bcf08] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [adad5111] Running /usr/bin/env ls -x /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [adad5111] Command: /usr/bin/env ls -x /home/ray/ray-exercise/releases
+ DEBUG [adad5111] 	20170414105747	20170414111141	20170414111448	20170414111633
+ DEBUG [adad5111] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [69ff89ee] Running if test ! -d /home/ray/ray-exercise/releases; then echo "Directory does not exist '/home/ray/ray-exercise/releases'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [69ff89ee] Command: if test ! -d /home/ray/ray-exercise/releases; then echo "Directory does not exist '/home/ray/ray-exercise/releases'" 1>&2; false; fi
+ DEBUG [69ff89ee] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [177689cf] Running /usr/bin/env echo "Branch master (at f4afeb88c69582ba8295b4b4009ffa878715aca7) deployed as release 20170414111633 by ray" >> /home/ray/ray-exercise/revisions.log as ray@172.104.88.136
+ DEBUG [177689cf] Command: cd /home/ray/ray-exercise/releases && /usr/bin/env echo "Branch master (at f4afeb88c69582ba8295b4b4009ffa878715aca7) deployed as release 20170414111633 by ray" >> /home/ray/ray-exercise/revisions.log
+  INFO [177689cf] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 19:25:30 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6ef9338c] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [6ef9338c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6ef9338c] Finished in 0.569 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [97eda5a5] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [97eda5a5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [97eda5a5] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [55f95cea] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [55f95cea] Command: /usr/bin/env mkdir -p /tmp
+  INFO [55f95cea] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [ece0306f] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [ece0306f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [ece0306f] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [f128b38c] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [f128b38c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [f128b38c] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [f128b38c] Finished in 0.837 seconds with exit status 0 (successful).
+  INFO [f3ca5d51] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [f3ca5d51] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [f3ca5d51] 	f4afeb88c69582ba8295b4b4009ffa878715aca7	HEAD
+  INFO [f3ca5d51] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [9b7b2bb4] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [9b7b2bb4] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [9b7b2bb4] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [5bef05b6] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [5bef05b6] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [5bef05b6] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [95619607] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [95619607] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [95619607] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [f9da3c5e] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [f9da3c5e] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [f9da3c5e] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [dc34b728] Running [ -f /home/ray/ray-exercise/shared/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [dc34b728] Command: [ -f /home/ray/ray-exercise/shared/config/secrets.yml ]
+ DEBUG [dc34b728] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [b66d7d75] Running [ -f /home/ray/ray-exercise/current/REVISION ] as ray@172.104.88.136
+ DEBUG [b66d7d75] Command: [ -f /home/ray/ray-exercise/current/REVISION ]
+ DEBUG [b66d7d75] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [fb1e2384] Running /usr/bin/env cat /home/ray/ray-exercise/current/REVISION 2>/dev/null as ray@172.104.88.136
+ DEBUG [fb1e2384] Command: /usr/bin/env cat /home/ray/ray-exercise/current/REVISION 2>/dev/null
+ DEBUG [fb1e2384] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [fb1e2384] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [fce81c17] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [fce81c17] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [fce81c17] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [06aacd91] Running [ -f /home/ray/ray-exercise/repo/HEAD ] as ray@172.104.88.136
+ DEBUG [06aacd91] Command: [ -f /home/ray/ray-exercise/repo/HEAD ]
+ DEBUG [06aacd91] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ray/ray-exercise/repo
+ DEBUG [cb286c7e] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [cb286c7e] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [cb286c7e] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [a9ecde08] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [a9ecde08] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [a9ecde08] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [be134658] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [be134658] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [be134658] 	Fetching origin
+  INFO [be134658] Finished in 0.704 seconds with exit status 0 (successful).
+ DEBUG [d8614ab1] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [d8614ab1] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [d8614ab1] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [59a1b484] Running /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git as ray@172.104.88.136
+ DEBUG [59a1b484] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote set-url origin https://github.com/jioherry/shopping_cart.git )
+  INFO [59a1b484] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [2371ad67] Running /usr/bin/env git remote update --prune as ray@172.104.88.136
+ DEBUG [2371ad67] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [2371ad67] 	Fetching origin
+  INFO [2371ad67] Finished in 0.765 seconds with exit status 0 (successful).
+ DEBUG [4d7e1465] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [4d7e1465] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [4d7e1465] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [29e94148] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534 as ray@172.104.88.136
+ DEBUG [29e94148] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534 )
+  INFO [29e94148] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [aaefc299] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414112534 as ray@172.104.88.136
+ DEBUG [aaefc299] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414112534 )
+  INFO [aaefc299] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [cb7d361f] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [cb7d361f] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [cb7d361f] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [6ec2fff7] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534 as ray@172.104.88.136
+ DEBUG [6ec2fff7] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534 )
+  INFO [6ec2fff7] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [0adef858] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414112534 as ray@172.104.88.136
+ DEBUG [0adef858] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ray/ray-exercise/releases/20170414112534 )
+  INFO [0adef858] Finished in 0.125 seconds with exit status 0 (successful).
+ DEBUG [9ad5f34e] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [9ad5f34e] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [9ad5f34e] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [ba0de476] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [ba0de476] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [ba0de476] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [ba0de476] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [eae45c51] Running if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [eae45c51] Command: if test ! -d /home/ray/ray-exercise/repo; then echo "Directory does not exist '/home/ray/ray-exercise/repo'" 1>&2; false; fi
+ DEBUG [eae45c51] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [ff593bb6] Running /usr/bin/env git rev-list --max-count=1 master as ray@172.104.88.136
+ DEBUG [ff593bb6] Command: cd /home/ray/ray-exercise/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [ff593bb6] 	f4afeb88c69582ba8295b4b4009ffa878715aca7
+ DEBUG [ff593bb6] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [b1f13866] Running if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [b1f13866] Command: if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi
+ DEBUG [b1f13866] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [a570ffb2] Running /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION as ray@172.104.88.136
+ DEBUG [a570ffb2] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env echo "f4afeb88c69582ba8295b4b4009ffa878715aca7" >> REVISION
+  INFO [a570ffb2] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [8deb3028] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534/config as ray@172.104.88.136
+ DEBUG [8deb3028] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534/config
+  INFO [8deb3028] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [780c390e] Running [ -L /home/ray/ray-exercise/releases/20170414112534/config/database.yml ] as ray@172.104.88.136
+ DEBUG [780c390e] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/config/database.yml ]
+ DEBUG [780c390e] Finished in 0.076 seconds with exit status 1 (failed).
+ DEBUG [c978e71d] Running [ -f /home/ray/ray-exercise/releases/20170414112534/config/database.yml ] as ray@172.104.88.136
+ DEBUG [c978e71d] Command: [ -f /home/ray/ray-exercise/releases/20170414112534/config/database.yml ]
+ DEBUG [c978e71d] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [7240e597] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414112534/config/database.yml as ray@172.104.88.136
+ DEBUG [7240e597] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414112534/config/database.yml
+  INFO [7240e597] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [f787aab9] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414112534/config/database.yml as ray@172.104.88.136
+ DEBUG [f787aab9] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/database.yml /home/ray/ray-exercise/releases/20170414112534/config/database.yml
+  INFO [f787aab9] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [58aa9882] Running [ -L /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [58aa9882] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml ]
+ DEBUG [58aa9882] Finished in 0.075 seconds with exit status 1 (failed).
+ DEBUG [bed84aab] Running [ -f /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [bed84aab] Command: [ -f /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml ]
+ DEBUG [bed84aab] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [f0a395ef] Running /usr/bin/env rm /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml as ray@172.104.88.136
+ DEBUG [f0a395ef] Command: /usr/bin/env rm /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml
+  INFO [f0a395ef] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [24237b33] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml as ray@172.104.88.136
+ DEBUG [24237b33] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/config/secrets.yml /home/ray/ray-exercise/releases/20170414112534/config/secrets.yml
+  INFO [24237b33] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [7453e884] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534 /home/ray/ray-exercise/releases/20170414112534/tmp /home/ray/ray-exercise/releases/20170414112534/public as ray@172.104.88.136
+ DEBUG [7453e884] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534 /home/ray/ray-exercise/releases/20170414112534/tmp /home/ray/ray-exercise/releases/20170414112534/public
+  INFO [7453e884] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [bde4b373] Running [ -L /home/ray/ray-exercise/releases/20170414112534/log ] as ray@172.104.88.136
+ DEBUG [bde4b373] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/log ]
+ DEBUG [bde4b373] Finished in 0.075 seconds with exit status 1 (failed).
+ DEBUG [f561fbc3] Running [ -d /home/ray/ray-exercise/releases/20170414112534/log ] as ray@172.104.88.136
+ DEBUG [f561fbc3] Command: [ -d /home/ray/ray-exercise/releases/20170414112534/log ]
+ DEBUG [f561fbc3] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [48c8382c] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414112534/log as ray@172.104.88.136
+ DEBUG [48c8382c] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414112534/log
+  INFO [48c8382c] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [efb46132] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414112534/log as ray@172.104.88.136
+ DEBUG [efb46132] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/releases/20170414112534/log
+  INFO [efb46132] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [5b6e1467] Running [ -L /home/ray/ray-exercise/releases/20170414112534/tmp/pids ] as ray@172.104.88.136
+ DEBUG [5b6e1467] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/tmp/pids ]
+ DEBUG [5b6e1467] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [7cacad41] Running [ -d /home/ray/ray-exercise/releases/20170414112534/tmp/pids ] as ray@172.104.88.136
+ DEBUG [7cacad41] Command: [ -d /home/ray/ray-exercise/releases/20170414112534/tmp/pids ]
+ DEBUG [7cacad41] Finished in 0.074 seconds with exit status 1 (failed).
+  INFO [071d63cd] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414112534/tmp/pids as ray@172.104.88.136
+ DEBUG [071d63cd] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/releases/20170414112534/tmp/pids
+  INFO [071d63cd] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [9b348b4c] Running [ -L /home/ray/ray-exercise/releases/20170414112534/tmp/cache ] as ray@172.104.88.136
+ DEBUG [9b348b4c] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/tmp/cache ]
+ DEBUG [9b348b4c] Finished in 0.076 seconds with exit status 1 (failed).
+ DEBUG [6200fc26] Running [ -d /home/ray/ray-exercise/releases/20170414112534/tmp/cache ] as ray@172.104.88.136
+ DEBUG [6200fc26] Command: [ -d /home/ray/ray-exercise/releases/20170414112534/tmp/cache ]
+ DEBUG [6200fc26] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [387ec541] Running /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414112534/tmp/cache as ray@172.104.88.136
+ DEBUG [387ec541] Command: /usr/bin/env rm -rf /home/ray/ray-exercise/releases/20170414112534/tmp/cache
+  INFO [387ec541] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [da419a2f] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414112534/tmp/cache as ray@172.104.88.136
+ DEBUG [da419a2f] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/releases/20170414112534/tmp/cache
+  INFO [da419a2f] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [e9934e30] Running [ -L /home/ray/ray-exercise/releases/20170414112534/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [e9934e30] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/tmp/sockets ]
+ DEBUG [e9934e30] Finished in 0.075 seconds with exit status 1 (failed).
+ DEBUG [fff9a2bd] Running [ -d /home/ray/ray-exercise/releases/20170414112534/tmp/sockets ] as ray@172.104.88.136
+ DEBUG [fff9a2bd] Command: [ -d /home/ray/ray-exercise/releases/20170414112534/tmp/sockets ]
+ DEBUG [fff9a2bd] Finished in 0.074 seconds with exit status 1 (failed).
+  INFO [9ef14d5f] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414112534/tmp/sockets as ray@172.104.88.136
+ DEBUG [9ef14d5f] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/releases/20170414112534/tmp/sockets
+  INFO [9ef14d5f] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [87fbc57d] Running [ -L /home/ray/ray-exercise/releases/20170414112534/public/system ] as ray@172.104.88.136
+ DEBUG [87fbc57d] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/public/system ]
+ DEBUG [87fbc57d] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [09f7ae38] Running [ -d /home/ray/ray-exercise/releases/20170414112534/public/system ] as ray@172.104.88.136
+ DEBUG [09f7ae38] Command: [ -d /home/ray/ray-exercise/releases/20170414112534/public/system ]
+ DEBUG [09f7ae38] Finished in 0.074 seconds with exit status 1 (failed).
+  INFO [680f417b] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414112534/public/system as ray@172.104.88.136
+ DEBUG [680f417b] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/releases/20170414112534/public/system
+  INFO [680f417b] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [e011406b] Running [ -L /home/ray/ray-exercise/releases/20170414112534/public/assets ] as ray@172.104.88.136
+ DEBUG [e011406b] Command: [ -L /home/ray/ray-exercise/releases/20170414112534/public/assets ]
+ DEBUG [e011406b] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [a5235a83] Running [ -d /home/ray/ray-exercise/releases/20170414112534/public/assets ] as ray@172.104.88.136
+ DEBUG [a5235a83] Command: [ -d /home/ray/ray-exercise/releases/20170414112534/public/assets ]
+ DEBUG [a5235a83] Finished in 0.075 seconds with exit status 1 (failed).
+  INFO [31570bb2] Running /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414112534/public/assets as ray@172.104.88.136
+ DEBUG [31570bb2] Command: /usr/bin/env ln -s /home/ray/ray-exercise/shared/public/assets /home/ray/ray-exercise/releases/20170414112534/public/assets
+  INFO [31570bb2] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [531e9a08] Running if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [531e9a08] Command: if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi
+ DEBUG [531e9a08] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [ee3a58ca] Running /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle as ray@172.104.88.136
+ DEBUG [ee3a58ca] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env bundle check --path /home/ray/ray-exercise/shared/bundle
+ DEBUG [ee3a58ca] 	The following gems are missing
+ DEBUG [ee3a58ca] 	 * net-ssh (4.1.0)
+ DEBUG [ee3a58ca] 	 * net-scp (1.2.1)
+ DEBUG [ee3a58ca] 	 * sshkit (1.13.1)
+ DEBUG [ee3a58ca] 	 * airbrussh (1.1.2)
+ DEBUG [ee3a58ca] 	 * bindex (0.5.0)
+ DEBUG [ee3a58ca] 	 * byebug (9.0.6)
+ DEBUG [ee3a58ca] 	 * capistrano (3.8.0)
+ DEBUG [ee3a58ca] 	 * capistrano-bundler (1.2.0)
+ DEBUG [ee3a58ca] 	 * capistrano-passenger (0.2.0)
+ DEBUG [ee3a58ca] 	 * capistrano-rails (1.2.3)
+ DEBUG [ee3a58ca] 	 * ffi (1.9.18)
+ DEBUG [ee3a58ca] 	 * rb-fsevent (0.9.8)
+ DEBUG [ee3a58ca] 	 * rb-inotify (0.9.8)
+ DEBUG [ee3a58ca] 	 * listen (3.0.8)
+ DEBUG [ee3a58ca] 	 * spring (2.0.1)
+ DEBUG [ee3a58ca] 	 * spring-watcher-listen (2.0.1)
+ DEBUG [ee3a58ca] 	 * web-console (3.5.0)
+ DEBUG [ee3a58ca] 	Install missing gems with `bundle install`
+ DEBUG [ee3a58ca] Finished in 0.595 seconds with exit status 1 (failed).
+  INFO [52837eba] Running /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet as ray@172.104.88.136
+ DEBUG [52837eba] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env bundle install --path /home/ray/ray-exercise/shared/bundle --without development test --deployment --quiet
+  INFO [52837eba] Finished in 2.455 seconds with exit status 0 (successful).
+ DEBUG [27a1c3ed] Running if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [27a1c3ed] Command: if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi
+ DEBUG [27a1c3ed] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [71f3548f] Running bundle exec rake assets:precompile as ray@172.104.88.136
+ DEBUG [71f3548f] Command: cd /home/ray/ray-exercise/releases/20170414112534 && ( export RAILS_ENV="production" ; bundle exec rake assets:precompile )
+  INFO [71f3548f] Finished in 2.687 seconds with exit status 0 (successful).
+ DEBUG [7e0370dc] Running if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [7e0370dc] Command: if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi
+ DEBUG [7e0370dc] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [29263521] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534/assets_manifest_backup as ray@172.104.88.136
+ DEBUG [29263521] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534/assets_manifest_backup
+  INFO [29263521] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [c0b94402] Running /usr/bin/env ls /home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest* as ray@172.104.88.136
+ DEBUG [c0b94402] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env ls /home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest*
+ DEBUG [c0b94402] 	/home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json
+ DEBUG [c0b94402] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [588489fe] Running /usr/bin/env ls /home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest* as ray@172.104.88.136
+ DEBUG [588489fe] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env ls /home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest*
+ DEBUG [588489fe] 	/home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json
+ DEBUG [588489fe] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [7bb8634e] Running /usr/bin/env cp /home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json /home/ray/ray-exercise/releases/20170414112534/assets_manifest_backup as ray@172.104.88.136
+ DEBUG [7bb8634e] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env cp /home/ray/ray-exercise/releases/20170414112534/public/assets/.sprockets-manifest-0e7dff0d79f345d624420eb45fe3b7bd.json /home/ray/ray-exercise/releases/20170414112534/assets_manifest_backup
+  INFO [7bb8634e] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [80079c87] Running if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [80079c87] Command: if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi
+ DEBUG [80079c87] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [85407592] Running bundle exec rake db:migrate as ray@172.104.88.136
+ DEBUG [85407592] Command: cd /home/ray/ray-exercise/releases/20170414112534 && ( export RAILS_ENV="production" ; bundle exec rake db:migrate )
+  INFO [85407592] Finished in 2.305 seconds with exit status 0 (successful).
+  INFO [58931f58] Running /usr/bin/env ln -s /home/ray/ray-exercise/releases/20170414112534 /home/ray/ray-exercise/releases/current as ray@172.104.88.136
+ DEBUG [58931f58] Command: /usr/bin/env ln -s /home/ray/ray-exercise/releases/20170414112534 /home/ray/ray-exercise/releases/current
+  INFO [58931f58] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [2710c8c5] Running /usr/bin/env mv /home/ray/ray-exercise/releases/current /home/ray/ray-exercise as ray@172.104.88.136
+ DEBUG [2710c8c5] Command: /usr/bin/env mv /home/ray/ray-exercise/releases/current /home/ray/ray-exercise
+  INFO [2710c8c5] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [a080afbd] Running if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [a080afbd] Command: if test ! -d /home/ray/ray-exercise/releases/20170414112534; then echo "Directory does not exist '/home/ray/ray-exercise/releases/20170414112534'" 1>&2; false; fi
+ DEBUG [a080afbd] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [4686862f] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534/tmp as ray@172.104.88.136
+ DEBUG [4686862f] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env mkdir -p /home/ray/ray-exercise/releases/20170414112534/tmp
+  INFO [4686862f] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [15a0ecee] Running /usr/bin/env touch /home/ray/ray-exercise/releases/20170414112534/tmp/restart.txt as ray@172.104.88.136
+ DEBUG [15a0ecee] Command: cd /home/ray/ray-exercise/releases/20170414112534 && /usr/bin/env touch /home/ray/ray-exercise/releases/20170414112534/tmp/restart.txt
+  INFO [15a0ecee] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [d4024a1b] Running /usr/bin/env ls -x /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [d4024a1b] Command: /usr/bin/env ls -x /home/ray/ray-exercise/releases
+ DEBUG [d4024a1b] 	20170414105747	20170414111141	20170414111448	20170414111633	20170414112534
+ DEBUG [d4024a1b] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 5 deployed releases on 172.104.88.136
+  INFO No old releases (keeping newest 5) on 172.104.88.136
+ DEBUG [00b1c94f] Running if test ! -d /home/ray/ray-exercise/releases; then echo "Directory does not exist '/home/ray/ray-exercise/releases'" 1>&2; false; fi as ray@172.104.88.136
+ DEBUG [00b1c94f] Command: if test ! -d /home/ray/ray-exercise/releases; then echo "Directory does not exist '/home/ray/ray-exercise/releases'" 1>&2; false; fi
+ DEBUG [00b1c94f] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [275b1246] Running /usr/bin/env echo "Branch master (at f4afeb88c69582ba8295b4b4009ffa878715aca7) deployed as release 20170414112534 by ray" >> /home/ray/ray-exercise/revisions.log as ray@172.104.88.136
+ DEBUG [275b1246] Command: cd /home/ray/ray-exercise/releases && /usr/bin/env echo "Branch master (at f4afeb88c69582ba8295b4b4009ffa878715aca7) deployed as release 20170414112534 by ray" >> /home/ray/ray-exercise/revisions.log
+  INFO [275b1246] Finished in 0.075 seconds with exit status 0 (successful).

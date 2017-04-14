@@ -8,7 +8,7 @@ set :repo_url, 'https://github.com/jioherry/shopping_cart.git'
 set :deploy_to, '/home/ray/ray-exercise'
 set :keep_releases, 5
 
-append :linked_files, 'config/database.yml', 'config/secrets.yml'
+append :linked_files, 'config/database.yml', 'config/secrets.yml', 'config/email.yml'
 # 如果有 facebook.yml 或 email.yml 想要連結的話，也要加進來
 
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system'
