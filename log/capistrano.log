@@ -1,0 +1,83 @@
+# Logfile created on 2017-04-14 18:45:40 +0800 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 18:45:40 +0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6d7d1c1a] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [6d7d1c1a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6d7d1c1a] Finished in 0.638 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [e181fd51] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [e181fd51] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [e181fd51] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [7df47069] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [7df47069] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7df47069] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [c935c035] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [c935c035] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [c935c035] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [ac2fdfe8] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [ac2fdfe8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [ac2fdfe8] 	544f12bc1798954d47fa3d24b0c596b24a07f5c2	HEAD
+  INFO [ac2fdfe8] Finished in 0.968 seconds with exit status 0 (successful).
+  INFO [4d8a8953] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [4d8a8953] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [4d8a8953] 	544f12bc1798954d47fa3d24b0c596b24a07f5c2	HEAD
+  INFO [4d8a8953] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [7656187f] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [7656187f] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [7656187f] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [116aaede] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [116aaede] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [116aaede] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [e5a73128] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [e5a73128] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [e5a73128] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [40f362ec] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [40f362ec] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [40f362ec] Finished in 0.072 seconds with exit status 1 (failed).
+ ERROR linked file /home/ray/ray-exercise/shared/config/database.yml does not exist on 172.104.88.136
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-04-14 18:51:40 +0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [2fcaa1c7] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [2fcaa1c7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2fcaa1c7] Finished in 0.627 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [428b9476] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [428b9476] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [428b9476] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [d36e44d9] Running /usr/bin/env mkdir -p /tmp as ray@172.104.88.136
+ DEBUG [d36e44d9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d36e44d9] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ray_cart-production-ray.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ray_cart-production-ray.sh 100.0%
+  INFO [d4369367] Running /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh as ray@172.104.88.136
+ DEBUG [d4369367] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ray_cart-production-ray.sh
+  INFO [d4369367] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [c083c260] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [c083c260] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [c083c260] 	544f12bc1798954d47fa3d24b0c596b24a07f5c2	HEAD
+  INFO [c083c260] Finished in 0.722 seconds with exit status 0 (successful).
+  INFO [62613ceb] Running /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD as ray@172.104.88.136
+ DEBUG [62613ceb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ray_cart-production-ray.sh" ; /usr/bin/env git ls-remote https://github.com/jioherry/shopping_cart.git HEAD )
+ DEBUG [62613ceb] 	544f12bc1798954d47fa3d24b0c596b24a07f5c2	HEAD
+  INFO [62613ceb] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [225f9d75] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases as ray@172.104.88.136
+ DEBUG [225f9d75] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared /home/ray/ray-exercise/releases
+  INFO [225f9d75] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [b59c38f6] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets as ray@172.104.88.136
+ DEBUG [b59c38f6] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/log /home/ray/ray-exercise/shared/tmp/pids /home/ray/ray-exercise/shared/tmp/cache /home/ray/ray-exercise/shared/tmp/sockets /home/ray/ray-exercise/shared/public/system /home/ray/ray-exercise/shared/public/assets
+  INFO [b59c38f6] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [a0705eff] Running /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config as ray@172.104.88.136
+ DEBUG [a0705eff] Command: /usr/bin/env mkdir -p /home/ray/ray-exercise/shared/config
+  INFO [a0705eff] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [ae4aa657] Running [ -f /home/ray/ray-exercise/shared/config/database.yml ] as ray@172.104.88.136
+ DEBUG [ae4aa657] Command: [ -f /home/ray/ray-exercise/shared/config/database.yml ]
+ DEBUG [ae4aa657] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [816eecf7] Running [ -f /home/ray/ray-exercise/shared/config/secrets.yml ] as ray@172.104.88.136
+ DEBUG [816eecf7] Command: [ -f /home/ray/ray-exercise/shared/config/secrets.yml ]
+ DEBUG [816eecf7] Finished in 0.072 seconds with exit status 0 (successful).
